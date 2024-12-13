@@ -11,8 +11,9 @@
 
 <body>
     <header>
-        <div class="logo-container">
+        <div class="header-content">
             <h1 class="logo">ARTESANÍAS DE LA TIERRA</h1>
+            <button id="carrito" onclick="mostrarCarrito()">Ver Carrito (0)</button>
         </div>
         <nav>
             <ul>
@@ -22,48 +23,49 @@
                 <li><a href="#Contacto">Contáctanos</a></li>
             </ul>
         </nav>
-        <button id="carrito" onclick="mostrarCarrito()">Ver Carrito (0)</button>
     </header>
 
     <main>
-        <section id="Inicio" class="intro">
+        <section id="Inicio" class="section intro">
             <h2>Bienvenidos a Artesanías de la Tierra</h2>
             <p>Descubre la belleza y autenticidad de nuestras artesanías hechas a mano por talentosos artesanos. Cada pieza tiene una historia que contar.</p>
-            <img src="" alt="Artesanías" class="intro-image">
+            <img src="path/to/hero-image.jpg" alt="Artesanías" class="intro-image">
         </section>
 
-        <section id="Productos" class="productos">
+        <section id="Productos" class="section productos">
             <h2>Nuestros Productos</h2>
-            <div class="producto">
-                <img src="path/to/product1.jpg" alt="Vaso de barro pintado">
-                <h3>Vaso de barro pintado</h3>
-                <p>Hecho a mano, ideal para decoración.</p>
-                <p><strong>$20.00</strong></p>
-                <button onclick="agregarAlCarrito('Vaso de barro pintado', 20)">Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="path/to/product2.jpg" alt="Alfombra tejida a mano">
-                <h3>Alfombra tejida a mano</h3>
-                <p>Con colores vibrantes, perfecta para tu hogar.</p>
-                <p><strong>$35.00</strong></p>
-                <button onclick="agregarAlCarrito('Alfombra tejida a mano', 35)">Agregar al Carrito</button>
-            </div>
-            <div class="producto">
-                <img src="path/to/product3.jpg" alt="Figuritas de madera">
-                <h3>Figuritas de madera</h3>
-                <p>Esculturas únicas talladas a mano.</p>
-                <p><strong>$15.00</strong></p>
-                <button onclick="agregarAlCarrito('Figuritas de madera', 15)">Agregar al Carrito</button>
+            <div class="productos-grid">
+                <div class="producto">
+                    <img src="path/to/product1.jpg" alt="Vaso de barro pintado">
+                    <h3>Vaso de barro pintado</h3>
+                    <p>Hecho a mano, ideal para decoración.</p>
+                    <p><strong>$20.00</strong></p>
+                    <button onclick="agregarAlCarrito('Vaso de barro pintado', 20)">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="path/to/product2.jpg" alt="Alfombra tejida a mano">
+                    <h3>Alfombra tejida a mano</h3>
+                    <p>Con colores vibrantes, perfecta para tu hogar.</p>
+                    <p><strong>$35.00</strong></p>
+                    <button onclick="agregarAlCarrito('Alfombra tejida a mano', 35)">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="path/to/product3.jpg" alt="Figuritas de madera">
+                    <h3>Figuritas de madera</h3>
+                    <p>Esculturas únicas talladas a mano.</p>
+                    <p><strong>$15.00</strong></p>
+                    <button onclick="agregarAlCarrito('Figuritas de madera', 15)">Agregar al Carrito</button>
+                </div>
             </div>
         </section>
 
-        <section id="Nosotros" class="about-us">
+        <section id="Nosotros" class="section about-us">
             <h2>Acerca de Nosotros</h2>
             <p>En Artesanías de la Tierra, trabajamos directamente con artesanos locales para ofrecerte productos auténticos, hechos a mano con amor y dedicación. Nuestro objetivo es preservar las tradiciones artesanales.</p>
             <img src="path/to/about-us.jpg" alt="Artesanos trabajando" class="about-image">
         </section>
 
-        <section id="Contacto" class="contacto">
+        <section id="Contacto" class="section contacto">
             <h2>Contáctanos</h2>
             <p>Email: <a href="mailto:artesaniasdelaTierra@samaria.com">artesaniasdelaTierra@samaria.com</a></p>
             <p>Teléfono: 3002254452</p>
@@ -80,8 +82,9 @@
         </div>
     </div>
 
-    <script src="carrito.js"></script>
+    <script src="carrito de compras.js"></script>
 </body>
 
 </html>
+
 
